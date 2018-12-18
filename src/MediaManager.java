@@ -9,7 +9,7 @@ public class MediaManager {
      * @param folderNavn
      */
     public void logMediaFolder(String folderNavn) {
-        File file = new File("C:\Users\tryde\Documents\GitHub\1sem_exam_2018_B");
+        File file = new File("C:\Users\tryde\Documents\GitHub\1sem_exam_2018_B\media");
         File[] list = file.listFiles();
 
         //her looper jeg igennem arraylisten af filer og printer filnavnet ud for hvert loop
@@ -20,7 +20,7 @@ public class MediaManager {
     }
 
     /**
-     * Denne metode
+     * Denne metode tager imod et foldernavn og returnerer en stringlist der fortæller hvilke filformater der er i mappen
      * @param folderNavn
      * @return
      */
@@ -34,6 +34,7 @@ public class MediaManager {
 
             String filtype = e.getName().substring(e.getName().lastIndexOf('.') + 1);
 
+            //Her bestemmes det om mediet er video, billede eller artikel
             if (filtype.equals("mp4") || filtype.equals("m4v") || filtype.equals("mov")) {
                 MediaVideo video = new MediaVideo();
             } else if (filtype.equals("jpg") || filtype.equals("png") || filtype.equals("gif")) {
