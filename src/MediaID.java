@@ -14,6 +14,7 @@ public class MediaID {
     //her initialiseres en klassevariabel kaldet latestId
     private static int latestId = 100;
 
+
     /**
      * Denne metode instantierer først et file object hvorefter den først prøver at læse filens id, og dernæst giver
      * objectet et id hvis det ikke findes i forvejen
