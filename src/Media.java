@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Media {
 
-    //en række forskellige klasse variable der bruges i programmmet. Der er private så de kan som udgangspunkt
+    //en række forskellige klasse variabler der bruges i programmmet. Der er private så de kan som udgangspunkt
     // kun ændres og bruges i klassen
     private int assetId;
     private String name;
