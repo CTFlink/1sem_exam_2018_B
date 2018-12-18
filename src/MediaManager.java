@@ -4,9 +4,12 @@ import java.util.Arrays;
 
 public class MediaManager {
 
-
+    /**
+     * Denne metode læser hvilke filer der er i media mappen
+     * @param folderNavn
+     */
     public void logMediaFolder(String folderNavn) {
-        File file = new File(folderNavn);
+        File file = new File("C:\Users\tryde\Documents\GitHub\1sem_exam_2018_B");
         File[] list = file.listFiles();
 
         //her looper jeg igennem arraylisten af filer og printer filnavnet ud for hvert loop
@@ -16,6 +19,11 @@ public class MediaManager {
 
     }
 
+    /**
+     * Denne metode
+     * @param folderNavn
+     * @return
+     */
     public ArrayList readMediaFolder(String folderNavn) {
         File file = new File(folderNavn);
         File[] list = file.listFiles();
