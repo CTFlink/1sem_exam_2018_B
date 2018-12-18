@@ -8,6 +8,7 @@ public class Main {
     public static final String MEDIA_MAPPE = "media/";
 
 
+
     /**
      * selve main metoden.
      * indtil videre kører den kun test metoden i Test klassen.
