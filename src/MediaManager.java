@@ -29,6 +29,7 @@ public class MediaManager {
         File[] list = file.listFiles();
         ArrayList<String> stringList = new ArrayList<>();
 
+        //Dette loop samler alle navnene på filerne i en string
         for (File e: list) {
             stringList.add(e.getName());
 
