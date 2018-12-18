@@ -53,6 +53,12 @@ public class Media {
         this.fileName = fileName;
     }
 
+
+    public void logToConsol() {
+        System.out.println("Navn: " + name + " Medietype: Media");
+    }
+
+
     /**
      * Her bruges @override annotationen der spørger programmet om vi nu rent faktisk overskriver metoden som vi har i
      * sinde. Det er en måde at checke efter stavefejl etc.
