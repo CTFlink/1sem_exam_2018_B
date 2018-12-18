@@ -11,7 +11,6 @@ public class Media {
     private Date created = new Date();
     private String fileName;
 
-
     /**
      * dette er klassens constructor som instantiere et nyt Media object
      */
